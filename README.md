@@ -6,10 +6,9 @@
 
 The repository currently supports a simple pipeline:
 
-1. Extract selected UK Biobank phenotype columns from raw tab files.
-2. Convert smoking-related fields into person-level natural-language summaries.
-3. Align those text summaries with downstream outcomes such as diabetes.
-4. Generate fixed text embeddings using a Hugging Face biomedical encoder.
+1. Convert smoking-related fields into person-level natural-language summaries.
+2. Align those text summaries with downstream outcomes such as diabetes.
+3. Generate fixed text embeddings using a Hugging Face biomedical encoder.
 
 This project is designed for cluster execution on Longleaf and currently uses several hard-coded absolute paths. If you run it elsewhere, update the paths in the scripts before launching jobs.
 
