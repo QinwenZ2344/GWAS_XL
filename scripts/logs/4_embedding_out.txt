@@ -1,0 +1,5 @@
+Using device: cuda
+Loading model: microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext
+Saved: /proj/yunligrp/users/qinwen/R_works/LLM_embedding/data/ukb_phenotype/diabetes_smoke_pubmedbert_emb.pt
+Number of samples: 500010
+Embedding shape: (500010, 768)
